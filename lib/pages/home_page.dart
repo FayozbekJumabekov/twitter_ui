@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
 
     TweetModel(
         userImage: "assets/images/accountPic.jpeg",
-        userName: "Kurbanov Khurshidbek",
+        userName: "Stefan Johnson",
         nickName: "@brain12sdfwegwf5",
         tweetTime: "2h",
         contentImage: "assets/images/im_user1.jpg",
@@ -240,14 +240,13 @@ class _HomePageState extends State<HomePage> {
                           children: [
                             /// # Account Name
                             Flexible(
-
                               child: Text(
                                 item.userName,
                                 overflow: TextOverflow.ellipsis,
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontWeight: FontWeight.w700,
-                                    fontSize: 16,
+                                    fontSize: 18,
                                     letterSpacing: 0.5),
                               ),
                             ),
